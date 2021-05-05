@@ -2,54 +2,33 @@ Package: clever
 Type: Package
 Title: Calculate Leverage of Component Models
 Version: 0.2.1
-Authors@R: c(
-    person(given = "Amanda",
-           family = "Mejia",
-           email = "mandy.mejia@gmail.com",
-           role = c("aut", "cre")),
-    person(given = "John",
-           family = "Muschelli",
-           email = "muschellij2@gmail.com",
-           role = c("aut"),
-           comment = c(ORCID = "0000-0001-6469-1750")),
-    person(given = "Damon",
-           family = "Pham",
-           email = "damondpham@gmail.com",
-           role = c("ctb"),
-           comment = c(ORCID = "0000-0001-7563-4727")))
-Description: Extends the definition of leverage from linear models
-    to principal components analysis. The name is based on component leverage,
-    or clever.
+Authors@R: c( person(given = "Amanda", family = "Mejia", email =
+        "mandy.mejia@gmail.com", role = c("aut", "cre")), person(given
+        = "John", family = "Muschelli", email =
+        "muschellij2@gmail.com", role = c("aut"), comment = c(ORCID =
+        "0000-0001-6469-1750")), person(given = "Damon", family =
+        "Pham", email = "damondpham@gmail.com", role = c("ctb"),
+        comment = c(ORCID = "0000-0001-7563-4727")))
+Description: Extends the definition of leverage from linear models to
+        principal components analysis. The name is based on component
+        leverage, or clever.
 Depends: R (>= 2.10)
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Imports:
-    cowplot,
-    expm,
-    ggplot2,
-    ggrepel,
-    MASS,
-    e1071,
-    far,
-    glmgen,
-    robustbase,
-    stats
+Imports: cowplot, expm, ggplot2, ggrepel, MASS, e1071, far, glmgen,
+        robustbase, stats
 RoxygenNote: 7.1.1
 URL: https://github.com/mandymejia/clever
 BugReports: https://github.com/mandymejia/clever/issues
-Suggests:
-    ciftiTools,
-    knitr,
-    rmarkdown,
-    RNifti,
-    ggpubr,
-    neurobase,
-    oro.nifti,
-    gridExtra,
-    testthat (>= 2.1.0),
-    covr
-Remotes:
-    glmgen/glmgen/R_pkg/glmgen,
-    mandymejia/ciftiTools
+Suggests: ciftiTools, knitr, rmarkdown, RNifti, ggpubr, neurobase,
+        oro.nifti, gridExtra, testthat (>= 2.1.0), covr
 VignetteBuilder: knitr
+Repository: Neuroconductor-Devel
+Remotes:  
+    glmgen/glmgen/R_pkg/glmgen,
+    mandymejia/ciftiTools,
+    neuroconductor-devel/RNifti@49867d05b1022b8c339abef44c3da2aafa59fa56,
+    neuroconductor-devel/oro.nifti@10eb2f8e8995d6c899792440838fcf44e451a4d6,
+    neuroconductor-devel/neurobase@6de4b85b6d3e820d8869519ff65f817b08e3602d
+biocViews: 
